@@ -1,0 +1,46 @@
+name: freshcuts
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.5
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.3
+  # Removed google_maps_flutter since MapScreen uses flutter_map
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^10.1.0
+  permission_handler: ^11.4.0
+  http: ^1.3.0
+  url_launcher: ^6.2.4
+  carousel_slider: ^5.0.0
+  google_fonts: ^6.2.1
+  google_generative_ai: ^0.4.0
+  qr_flutter: ^4.1.0
+
+  # ✅ Updated Firebase dependencies
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  firebase_storage: ^12.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/gpay.json
+    - assets/  # Add specific asset directories or files as needed
